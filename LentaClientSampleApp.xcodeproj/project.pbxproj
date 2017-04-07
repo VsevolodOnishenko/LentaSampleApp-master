@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42EAF2341E79DBAB00C0700A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EAF2331E79DBAB00C0700A /* main.m */; };
+		42EAF2371E79DBAB00C0700A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EAF2361E79DBAB00C0700A /* AppDelegate.m */; };
+		42EAF23D1E79DBAB00C0700A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EAF23B1E79DBAB00C0700A /* Main.storyboard */; };
+		42EAF2401E79DBAB00C0700A /* LentaClientSampleApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42EAF23E1E79DBAB00C0700A /* LentaClientSampleApp.xcdatamodeld */; };
+		42EAF2421E79DBAB00C0700A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42EAF2411E79DBAB00C0700A /* Assets.xcassets */; };
+		42EAF2451E79DBAB00C0700A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EAF2431E79DBAB00C0700A /* LaunchScreen.storyboard */; };
+		42EAF2571E79DC8900C0700A /* LentaFeedTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EAF2561E79DC8900C0700A /* LentaFeedTableView.m */; };
+		42EAF25A1E79E00D00C0700A /* FeedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EAF2591E79E00D00C0700A /* FeedObject.m */; };
+		42EAF25E1E79E46E00C0700A /* FeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EAF25C1E79E46E00C0700A /* FeedCell.m */; };
+		42EAF25F1E79E46E00C0700A /* FeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42EAF25D1E79E46E00C0700A /* FeedCell.xib */; };
+		C3C25ABE5BC6EDA75525C237 /* libPods-LentaClientSampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 128FBEB3829EFAE8AD6E6EF5 /* libPods-LentaClientSampleApp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		128FBEB3829EFAE8AD6E6EF5 /* libPods-LentaClientSampleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LentaClientSampleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1485CEFDFB4E6A1F48883377 /* Pods-LentaClientSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LentaClientSampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-LentaClientSampleApp/Pods-LentaClientSampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		42EAF22F1E79DBAB00C0700A /* LentaClientSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LentaClientSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EAF2331E79DBAB00C0700A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42EAF2351E79DBAB00C0700A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42EAF2361E79DBAB00C0700A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42EAF23C1E79DBAB00C0700A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42EAF23F1E79DBAB00C0700A /* LentaClientSampleApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LentaClientSampleApp.xcdatamodel; sourceTree = "<group>"; };
+		42EAF2411E79DBAB00C0700A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42EAF2441E79DBAB00C0700A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42EAF2461E79DBAB00C0700A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EAF2551E79DC8900C0700A /* LentaFeedTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LentaFeedTableView.h; sourceTree = "<group>"; };
+		42EAF2561E79DC8900C0700A /* LentaFeedTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LentaFeedTableView.m; sourceTree = "<group>"; };
+		42EAF2581E79E00D00C0700A /* FeedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedObject.h; sourceTree = "<group>"; };
+		42EAF2591E79E00D00C0700A /* FeedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedObject.m; sourceTree = "<group>"; };
+		42EAF25B1E79E46E00C0700A /* FeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedCell.h; sourceTree = "<group>"; };
+		42EAF25C1E79E46E00C0700A /* FeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedCell.m; sourceTree = "<group>"; };
+		42EAF25D1E79E46E00C0700A /* FeedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedCell.xib; sourceTree = "<group>"; };
+		5728DC4D85F118F167859FD8 /* Pods-LentaClientSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LentaClientSampleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LentaClientSampleApp/Pods-LentaClientSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42EAF22C1E79DBAB00C0700A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C25ABE5BC6EDA75525C237 /* libPods-LentaClientSampleApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42EAF2261E79DBAB00C0700A = {
+			isa = PBXGroup;
+			children = (
+				42EAF2311E79DBAB00C0700A /* LentaClientSampleApp */,
+				42EAF2301E79DBAB00C0700A /* Products */,
+				60C3196DE3F051B14CF5C52A /* Pods */,
+				460A27A3C6DF6D312EA9433D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		42EAF2301E79DBAB00C0700A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42EAF22F1E79DBAB00C0700A /* LentaClientSampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42EAF2311E79DBAB00C0700A /* LentaClientSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				42EAF2511E79DC0400C0700A /* Feed */,
+				42EAF24D1E79DBC800C0700A /* Storyboard */,
+				42EAF24C1E79DBB200C0700A /* App Delegate */,
+				42EAF2501E79DBF700C0700A /* Source */,
+				42EAF2321E79DBAB00C0700A /* Supporting Files */,
+			);
+			path = LentaClientSampleApp;
+			sourceTree = "<group>";
+		};
+		42EAF2321E79DBAB00C0700A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42EAF2331E79DBAB00C0700A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42EAF24C1E79DBB200C0700A /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				42EAF2351E79DBAB00C0700A /* AppDelegate.h */,
+				42EAF2361E79DBAB00C0700A /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		42EAF24D1E79DBC800C0700A /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				42EAF24F1E79DBD800C0700A /* Launch */,
+				42EAF24E1E79DBD400C0700A /* Main */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		42EAF24E1E79DBD400C0700A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				42EAF23B1E79DBAB00C0700A /* Main.storyboard */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		42EAF24F1E79DBD800C0700A /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				42EAF2431E79DBAB00C0700A /* LaunchScreen.storyboard */,
+			);
+			name = Launch;
+			sourceTree = "<group>";
+		};
+		42EAF2501E79DBF700C0700A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				42EAF2411E79DBAB00C0700A /* Assets.xcassets */,
+				42EAF2461E79DBAB00C0700A /* Info.plist */,
+				42EAF23E1E79DBAB00C0700A /* LentaClientSampleApp.xcdatamodeld */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		42EAF2511E79DC0400C0700A /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				42EAF2541E79DC6500C0700A /* Model */,
+				42EAF2531E79DC6000C0700A /* Cell */,
+				42EAF2521E79DC5D00C0700A /* View */,
+			);
+			name = Feed;
+			sourceTree = "<group>";
+		};
+		42EAF2521E79DC5D00C0700A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				42EAF2551E79DC8900C0700A /* LentaFeedTableView.h */,
+				42EAF2561E79DC8900C0700A /* LentaFeedTableView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		42EAF2531E79DC6000C0700A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				42EAF25B1E79E46E00C0700A /* FeedCell.h */,
+				42EAF25C1E79E46E00C0700A /* FeedCell.m */,
+				42EAF25D1E79E46E00C0700A /* FeedCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		42EAF2541E79DC6500C0700A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				42EAF2581E79E00D00C0700A /* FeedObject.h */,
+				42EAF2591E79E00D00C0700A /* FeedObject.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		460A27A3C6DF6D312EA9433D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				128FBEB3829EFAE8AD6E6EF5 /* libPods-LentaClientSampleApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60C3196DE3F051B14CF5C52A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5728DC4D85F118F167859FD8 /* Pods-LentaClientSampleApp.debug.xcconfig */,
+				1485CEFDFB4E6A1F48883377 /* Pods-LentaClientSampleApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42EAF22E1E79DBAB00C0700A /* LentaClientSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EAF2491E79DBAB00C0700A /* Build configuration list for PBXNativeTarget "LentaClientSampleApp" */;
+			buildPhases = (
+				70BC46AF652E187D001AB306 /* [CP] Check Pods Manifest.lock */,
+				42EAF22B1E79DBAB00C0700A /* Sources */,
+				42EAF22C1E79DBAB00C0700A /* Frameworks */,
+				42EAF22D1E79DBAB00C0700A /* Resources */,
+				3F3C337FAB0D99B251B57BC3 /* [CP] Embed Pods Frameworks */,
+				1BE0B97CE70326A6163B1B85 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LentaClientSampleApp;
+			productName = LentaClientSampleApp;
+			productReference = 42EAF22F1E79DBAB00C0700A /* LentaClientSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42EAF2271E79DBAB00C0700A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Vladimir Malakhov";
+				TargetAttributes = {
+					42EAF22E1E79DBAB00C0700A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 42EAF22A1E79DBAB00C0700A /* Build configuration list for PBXProject "LentaClientSampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42EAF2261E79DBAB00C0700A;
+			productRefGroup = 42EAF2301E79DBAB00C0700A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42EAF22E1E79DBAB00C0700A /* LentaClientSampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42EAF22D1E79DBAB00C0700A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EAF2451E79DBAB00C0700A /* LaunchScreen.storyboard in Resources */,
+				42EAF25F1E79E46E00C0700A /* FeedCell.xib in Resources */,
+				42EAF2421E79DBAB00C0700A /* Assets.xcassets in Resources */,
+				42EAF23D1E79DBAB00C0700A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BE0B97CE70326A6163B1B85 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LentaClientSampleApp/Pods-LentaClientSampleApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F3C337FAB0D99B251B57BC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LentaClientSampleApp/Pods-LentaClientSampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70BC46AF652E187D001AB306 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42EAF22B1E79DBAB00C0700A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EAF2401E79DBAB00C0700A /* LentaClientSampleApp.xcdatamodeld in Sources */,
+				42EAF2371E79DBAB00C0700A /* AppDelegate.m in Sources */,
+				42EAF2571E79DC8900C0700A /* LentaFeedTableView.m in Sources */,
+				42EAF25E1E79E46E00C0700A /* FeedCell.m in Sources */,
+				42EAF25A1E79E00D00C0700A /* FeedObject.m in Sources */,
+				42EAF2341E79DBAB00C0700A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42EAF23B1E79DBAB00C0700A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42EAF23C1E79DBAB00C0700A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42EAF2431E79DBAB00C0700A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42EAF2441E79DBAB00C0700A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42EAF2471E79DBAB00C0700A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		42EAF2481E79DBAB00C0700A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42EAF24A1E79DBAB00C0700A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5728DC4D85F118F167859FD8 /* Pods-LentaClientSampleApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LentaClientSampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WM.LentaClientSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42EAF24B1E79DBAB00C0700A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1485CEFDFB4E6A1F48883377 /* Pods-LentaClientSampleApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = LentaClientSampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WM.LentaClientSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42EAF22A1E79DBAB00C0700A /* Build configuration list for PBXProject "LentaClientSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EAF2471E79DBAB00C0700A /* Debug */,
+				42EAF2481E79DBAB00C0700A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42EAF2491E79DBAB00C0700A /* Build configuration list for PBXNativeTarget "LentaClientSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EAF24A1E79DBAB00C0700A /* Debug */,
+				42EAF24B1E79DBAB00C0700A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		42EAF23E1E79DBAB00C0700A /* LentaClientSampleApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				42EAF23F1E79DBAB00C0700A /* LentaClientSampleApp.xcdatamodel */,
+			);
+			currentVersion = 42EAF23F1E79DBAB00C0700A /* LentaClientSampleApp.xcdatamodel */;
+			path = LentaClientSampleApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 42EAF2271E79DBAB00C0700A /* Project object */;
+}
